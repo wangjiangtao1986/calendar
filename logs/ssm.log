@@ -1,0 +1,42 @@
+[DEBUG][2019-01-23 17:30|:18][freemarker.cache]Could not find template in cache, creating new one; id=[msg.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-23 17:30|:18][freemarker.cache]Compiling FreeMarker template msg.htm[zh_CN,utf-8,parsed]  from D:\ftl\msg.htm
+[ERROR][2019-01-23 17:30|:19][freemarker.runtime]
+
+Expression req is undefined on line 5, column 15 in msg.htm.
+The problematic instruction:
+----------
+==> ${req.contextPath} [on line 5, column 13 in msg.htm]
+----------
+
+Java backtrace for programmers:
+----------
+freemarker.core.InvalidReferenceException: Expression req is undefined on line 5, column 15 in msg.htm.
+	at freemarker.core.TemplateObject.assertNonNull(TemplateObject.java:124)
+	at freemarker.core.TemplateObject.invalidTypeException(TemplateObject.java:134)
+	at freemarker.core.Dot._getAsTemplateModel(Dot.java:78)
+	at freemarker.core.Expression.getAsTemplateModel(Expression.java:89)
+	at freemarker.core.Expression.getStringValue(Expression.java:93)
+	at freemarker.core.DollarVariable.accept(DollarVariable.java:76)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.MixedContent.accept(MixedContent.java:92)
+	at freemarker.core.Environment.visit(Environment.java:209)
+	at freemarker.core.Environment.process(Environment.java:189)
+	at freemarker.template.Template.process(Template.java:237)
+	at com.wangjt.util.FreeMarkerViewUtil.genFile(FreeMarkerViewUtil.java:113)
+	at com.wangjt.util.FreeMarkerViewUtil.main(FreeMarkerViewUtil.java:120)
+[DEBUG][2019-01-23 17:30|:49][freemarker.cache]Could not find template in cache, creating new one; id=[msg.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-23 17:30|:49][freemarker.cache]Compiling FreeMarker template msg.htm[zh_CN,utf-8,parsed]  from D:\ftl\msg.htm
+[DEBUG][2019-01-28 16:04|:27][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:04|:27][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm
+[DEBUG][2019-01-28 16:05|:15][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:05|:15][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm
+[DEBUG][2019-01-28 16:05|:45][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:05|:45][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm
+[DEBUG][2019-01-28 16:07|:02][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:07|:02][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm
+[DEBUG][2019-01-28 16:11|:03][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:11|:03][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm
+[DEBUG][2019-01-28 16:12|:33][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:12|:33][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm
+[DEBUG][2019-01-28 16:18|:07][freemarker.cache]Could not find template in cache, creating new one; id=[email.htm[zh_CN,utf-8,parsed] ]
+[DEBUG][2019-01-28 16:18|:07][freemarker.cache]Compiling FreeMarker template email.htm[zh_CN,utf-8,parsed]  from D:\wangjt\Workspaces10\calendar\WebRoot\WEB-INF\ftl\email.htm

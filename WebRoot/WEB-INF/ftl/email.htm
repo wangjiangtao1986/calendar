@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>${title?if_exists}</title>
+<style type="text/css">
+_font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans Regular'), local('OpenSans-Regular'),
+		url(https://fonts.gstatic.com/s/opensans/v15/u-WUoqrET9fUeobQW7jkRYX0hVgzZQUfRDuZrPvH3D8.woff2)
+		format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+
+_font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans Regular'), local('OpenSans-Regular'),
+		url(https://fonts.gstatic.com/s/opensans/v15/cJZKeOuBrn4kERxqtaUH3ZBw1xU1rKptJj_0jans920.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+		U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+_font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+		url(https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNSojoYw3YTyktCCer_ilOlhE.woff2)
+		format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+
+_font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 600;
+	src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'),
+		url(https://fonts.gstatic.com/s/opensans/v15/MTP_ySUJH_bn48VBG8sNShampu5_7CjHW5spxoeN3Vs.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+		U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+_font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'),
+		url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzIjoYw3YTyktCCer_ilOlhE.woff2)
+		format('woff2');
+	unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF,
+		U+2C60-2C7F, U+A720-A7FF;
+}
+
+_font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'),
+		url(https://fonts.gstatic.com/s/opensans/v15/k3k702ZOKiLJc3WVjuplzBampu5_7CjHW5spxoeN3Vs.woff2)
+		format('woff2');
+	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC,
+		U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+a {
+	color: #F26B3A !important;
+}
+
+a.button {
+	color: #FFFFFF !important;
+}
+
+#footerText {
+	color: #FFFFFF !important;
+}
+
+#footerText a:link {
+	color: #FFFFFF !important;
+}
+</style>
+<style type="text/css">
+div#emailPreHeader {
+	display: none !important;
+}
+</style>
+</head>
+
+<body bgcolor="#F26B3A"
+	style="font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif !important; color: #282828;">
+
+	<table id="body" class="body" summary="body" width="100%" height="100%"
+		align="center" border="0" cellspacing="0" cellpadding="0"
+		style="background-color: #F26B3A;">
+		<tbody>
+			<tr>
+				<td align="center" valign="top">
+
+
+					<table class="outer-table mktoContainer" id="template-wrapper"
+						summary="outer-table" align="center" valign="top" border="0"
+						cellpadding="0" cellspacing="0"
+						style="width: 100%; max-width: 550px; margin: 0 auto;"
+						width="100%">
+						<!-- logo && 分类 -->
+						<tr class="mktoModule" id="mkto-header-module">
+							<td>
+								<table class="inner-table" summary="inner-table" align="center"
+									valign="top" border="0" cellpadding="0" cellspacing="0"
+									style="width: 92.7%; max-width: 510px; margin: 0 auto;"
+									width="100%">
+									<tbody>
+										<tr height="20">
+											<td style="font-size: 0px; line-height: 0;">&nbsp;</td>
+										</tr>
+										<tr height="50">
+											<td align="left" valign="middle"><a
+												href=""
+												target="_blank"><img
+													src="http://pages.getpostman.com/rs/067-UMD-991/images/pm-logo.png"
+													width="51" height="50"
+													style="border: 0; width: 51px; height: 50px;"></a></td>
+											<td align="right" valign="middle">
+												<span style="text-align: right !important; font-size: 12px; color: #FFFFFF; font-weight: 600;">
+												日程管理邮件提醒: ${date?if_exists}
+												</span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<!-- 头图   && 正文 -->
+						<tr class="mktoModule"
+							id="mkto-article-image-modulefa77e989-acf4-4d32-9f78-0a287c47b917">
+							<td>
+								<table class="inner-table" summary="inner-table" align="center"
+									valign="top" border="0" cellpadding="0" cellspacing="0"
+									style="width: 92.7%; max-width: 510px; margin: 0 auto;"
+									width="100%">
+									<tbody>
+										<tr height="25">
+											<td style="font-size: 0px; line-height: 0;">&nbsp;</td>
+										</tr>
+										<tr>
+											<td align="center" valign="top">
+												<div class="mktoImg"
+													id="mkto-article-imagefa77e989-acf4-4d32-9f78-0a287c47b917"
+													mktolockimgsize="true">
+													<a><img
+														src="https://pages.getpostman.com/rs/067-UMD-991/images/header-v2.png"
+														width="510"
+														style="width: 100%; max-width: 510px; display: block; background-color: #FFFFFF; box-shadow: 0px 7px 15px rgba(0, 0, 0, .3) !important;"
+														alt="header-v2.png"></a>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<table class="inner-table" summary="inner-table"
+													align="center" valign="top" border="0" cellpadding="0"
+													cellspacing="0"
+													style="width: 96%; max-width: 490px; margin: 0 auto; background-color: #FFFFFF; background-image: url(http://pages.getpostman.com/rs/067-UMD-991/images/image-shadow.png); background-repeat: repeat-x; background-size: 2px 25px; background-position: 0px 0px; margin: 0 auto; text-align: center;"
+													width="100%" bgcolor="#FFFFFF">
+													<tbody>
+														<tr>
+															<td>
+																<h1
+																	style="font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif !important; font-weight: 600; margin: 25px 20px 25px 20px; padding: 0px; text-align: left; color: #282828; font-size: 20px;">
+																	${userName?if_exists}!
+																</h1>
+																<div class="mktoText"
+																	id="articleContent1fa77e989-acf4-4d32-9f78-0a287c47b917"
+																	style="font-size: 12px; line-height: 22px; font-weight: 400; color: #282828; margin: 0 20px 25px 20px; padding: 0px; text-align: left;">
+																	<!-- title -->
+																	<p>
+																		<strong>
+																			${title?if_exists}
+																		</strong>
+																	</p>
+																	<p>
+																		<strong>
+																			${startTime?if_exists}-${endTime?if_exists}
+																		</strong>
+																	</p>
+																	<!-- content -->
+																	<p>
+																			${content?if_exists}
+																	</p>
+																	<p>
+																		<a href="${viewLink?if_exists}" target="_blank">点击查看详情</a>
+																	</p>
+																</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<div style="display: none !important;">
+													<table class="inner-table" summary="inner-table"
+														align="center" valign="top" border="0" cellpadding="0"
+														cellspacing="0"
+														style="width: 96%; max-width: 490px; margin: 0 auto; background-color: #FFFFFF; margin: 0 auto; text-align: center;"
+														width="100%" bgcolor="#FFFFFF">
+														<tbody>
+															<tr>
+																<td>
+																	<table width="100%" border="0" cellspacing="0"
+																		cellpadding="0">
+																		<tbody>
+																			<tr>
+																				<td align="center">
+																					<table border="0" cellspacing="0" cellpadding="0">
+																						<tbody>
+																							<tr>
+																								<td align="center" style="border-radius: 35px;"
+																									bgcolor="#ff6c37"><a
+																									href="http://go.getpostman.com/j5eM040DU00Lu0qGDh00x00"
+																									target="_blank" class="button"
+																									style="font-size: 12px; line-height: 22px !important; color: #ffffff !important; text-decoration: none; text-decoration: none; border-radius: 35px; padding: 3px 30px; border: 1px solid #ff6c37; display: inline-block; font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif !important;">See
+																										our roadmap</a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																				</td>
+																			</tr>
+																		</tbody>
+																	</table>
+																</td>
+															</tr>
+															<tr height="25">
+																<td>&nbsp;</td>
+															</tr>
+														</tbody>
+													</table>
+												</div>
+											</td>
+										</tr>
+										<tr height="25">
+											<td style="font-size: 0px; line-height: 0;">&nbsp;</td>
+										</tr>
+									</tbody>
+								</table>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-textonly-modulefe74eb03-43f2-4615-9342-8bc54f1ad965">
+							<td>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-image-modulef77a41c0-70e2-44bc-bf33-c737a24b716b">
+							<td>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-textonly-modulec2a8e226-5543-4b9e-a6f4-18fa8b2e1a10">
+							<td>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-image-module4dc271ca-0330-48bc-bee6-ddc9b5b7e60c">
+							<td>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-textonly-module957f0044-3fd2-4758-aa19-e72be68d4c76">
+							<td>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-image-module725a8e6e-6ccb-4fb2-a4f4-1540d50368f3">
+							<td>
+							</td>
+						</tr>
+						<tr class="mktoModule"
+							id="mkto-article-textonly-module57a4809d-9fc3-4bd2-9aca-3a632fa2ecb7">
+							<td>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<!-- footer -->
+			<tr>
+				<td>
+					<table class="inner-table" summary="inner-table" align="center"
+						valign="top" border="0" cellpadding="0" cellspacing="0"
+						style="width: 100%; margin: 0 auto; background-color: #transparent; margin: 0 auto; text-align: center;"
+						width="100%" bgcolor="#ff6c37">
+						<tbody>
+							<tr height="136">
+								<td>
+									<div class="mktoText" id="footerText"
+										style="font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif !important; font-size: 10px; line-height: 14px; color: #ffffff !important;">
+										<p
+											style="font-family: 'Open Sans', -apple-system, Helvetica, Arial, sans-serif !important; font-size: 10px; line-height: 14px; color: #ffffff !important;">
+											© 2019 Postman Inc., All Rights Reserved.<br>
+											<a href="http://go.getpostman.com/rL0r0D0x0MFDuGU4q0050h0"
+												style="text-decoration: none !important; color: #ffffff !important;">595
+												Market Street, Suite 1130&nbsp; San Francisco, CA 94105</a><br>Click
+											to <strong><a
+												href="https://pages.getpostman.com/UnsubscribePage.html?mkt_unsubscribe=1&amp;mkt_tok=eyJpIjoiTkdNNU16Sm1NakJpWVRFNCIsInQiOiJPeko0cGxXRzZ0OURJV2hoVWlsVGdnRXYwRjlHcTNPY09XZmphdkg4ZGdmNGtiQmhUN2czMXEvaDhkWWRQK3p1U1hjZ3dyb2l0cFV0RUxrUFk5K3QrK3lnMVdLV0hVQUd6cjQ2QTFSWjVuUzNMQ0UvZVVOd01EamZNZklvcW9zViJ9"
+												style="color: #ffffff !important;">unsubscribe</a></strong> from
+											these emails.
+										</p>
+									</div>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
